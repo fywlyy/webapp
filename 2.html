@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/common.css"></link>
+	<style type="text/css">
+		.des-header{
+			padding: .667rem .32rem .32rem;
+			background-color: #fff;
+			border-bottom:#f0f0f0;
+		}
+		.des-header .course{
+			margin-bottom:.4rem;
+			font-size:.4533rem;
+			color:#333;
+		}
+		.des-header .course img{
+			position:relative;
+			top:-.05rem;
+			display: inline-block;
+			width:.6rem;
+			vertical-align: middle;
+		}
+		.des-header .opinion{
+			position: relative;
+			padding-left:.44rem;
+			height:.82rem;
+			background-color: #fff8f0;
+			line-height: .8rem;
+			font-size:.42667rem;
+			color:#ffb449;
+		}
+		.des-header .opinion:after{
+			position: absolute;
+			top:-.24rem;
+			left:.48rem;
+			content:"";
+			width: 0;
+			height:0;
+			border:.12rem solid transparent;
+			border-bottom:.12rem solid #fff8f0;
+		}
+		.inspect-list{
+			border-top:.24rem solid #f6f6f6;
+			border-bottom:1px solid #f0f0f0;
+		}
+		.inspect-list li{
+			padding-left:.36rem;
+			height:1.4rem;
+			border-top:1px solid #f0f0f0;
+			line-height: 1.4rem;
+			font-size:.42667rem;
+			color:#333;
+		}
+		.inspect-list .title{
+			display:inline-block;
+			width:3rem;
+		}
+		.inspect-list .result{
+			color:#828282;
+		}
+		.inspect-list .result.warning{
+			color:#c0161c;
+		}
+	</style>
+	<script type="text/javascript" src="js/fontSet.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="header clearFix">
+			<img class="left-icon fl" src="images/arrows.png">
+			<span class="title">检查详情</span>
+			<span class="more fr">更多</span>
+		</div>
+		<div class="main-content">
+			<div class="des-header">
+				<div class="course">
+					<img src="images/icon_5.png">
+					口腔科
+				</div>
+				<div class="opinion">
+					初步意见：牙结石
+				</div>
+			</div>
+			<ul class="inspect-list">
+				<li>
+					<span class="title">唇</span>
+					<span class="result">未见明显异常</span>					
+				</li>
+				<li>
+					<span class="title">牙体</span>
+					<span class="result">未见明显异常</span>					
+				</li>
+				<li>
+					<span class="title">牙周</span>
+					<span class="result warning">牙结石不同程度附着于牙颈部</span>					
+				</li>
+				<li>
+					<span class="title">舌</span>
+					<span class="result">未见明显异常</span>					
+				</li>	
+				<li>
+					<span class="title">腭</span>
+					<span class="result">未见明显异常</span>					
+				</li>
+				<li>
+					<span class="title">口腔黏膜</span>
+					<span class="result">未见明显异常</span>					
+				</li>
+				<li>
+					<span class="title">舌下腺</span>
+					<span class="result">未见明显异常</span>					
+				</li>
+				<li>
+					<span class="title">颌下腺</span>
+					<span class="result">未见明显异常</span>					
+				</li>															
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
